@@ -20,21 +20,19 @@ while repeat == 'yes':
         else:
                 print("Wrong input Please enter as per menu\n")
 
-  number1 = int(input("Enter first number\n"))
-  number2 = int(input("Enter second number\n"))
+ number1 = int(input("Enter first number\n"))
+ number2 = int(input("Enter second number\n"))
 
-if operation == 1:
+ if operation == 1:
     print("\nAddition of two numbers is", addition(number1,number2))
-elif operation == 2:
+ elif operation == 2:
     print("\nSubtraction of two numbers is", subtraction(number1,number2))
-elif operation == 3:
+ elif operation == 3:
     print("\n Multiplication of two numbers is", multiplication(number1, number2))
-elif operation == 4:
+ elif operation == 4:
     if number2 == 0:
         print("division not defined")
     else:
         print("Division of two numbers is", division(number1, number2))
-print("\n would you like to repeat, Enter yes or no")
-repeat = input()
-if repeat == 'no'
-break
+ print("\n would you like to repeat, Enter yes or no")
+ repeat = input()
