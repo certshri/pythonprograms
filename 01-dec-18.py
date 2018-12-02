@@ -13,7 +13,7 @@ while repeat == 'yes':
  check = 0
  while check == 0:
 
-        operation = int(input("Enter 1for Addition\nEnter 2 for Subtraction\n"
+        operation = int(input("Enter 1 for Addition\nEnter 2 for Subtraction\n"
                               "Enter 3 for Multiplication\nEnter 4 for Division\n"))
         if 0 < operation and operation < 5:
             check = 1
