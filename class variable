@@ -1,0 +1,61 @@
+# #This is single line comment
+# """
+# This is class 02
+# 1)Variable
+# 2)Data Type:Integer,Float,String,Boolean,None
+# 3)Data Structure:
+# 4)List
+# """
+#
+# integer_variable=3
+# print(integer_variable,id(integer_variable))
+# temp=7
+# integer_variable = temp
+# print(integer_variable)
+# #string
+# string_variable='This is my single line sring'
+# string_variable2='This is my '\
+#                  'multiline string01'
+# string_variable3="""
+# This first line of variable 3.
+# this is second line of variable 3.
+# this third line of variable 3.
+# """
+# print(string_variable)
+# print(string_variable2)
+# print(string_variable3)
+# a=''
+# print('printing a',a)
+# #Boolean
+# true_flag=True
+# false_flag=False
+# print(true_flag, type(true_flag), id(true_flag))
+# print(false_flag), type(false_flag), id(false_flag)
+# ##None
+# none_variable=None
+# print(none_variable,type(none_variable), id(none_variable))
+# #list
+#
+# list_variable=[
+#     'chandrakant', 'Home','chandrakant', 9637646929, 356.2102, False
+# ]
+# print(list_variable)
+#
+# print(type(list_variable[0]),type(list_variable[1]),type(list_variable[2]),type(list_variable[3]),type(list_variable[4]))
+# print('index is:')
+# print(list_variable.index('chandrakant'))
+# print(len(list_variable))
+# print(list_variable.count('chandrakant'))
+# integer_list=[2,5,98,35,65,48,56,1214,8,0]
+# print(sorted(integer_list))
+# integer_list.sort(reverse=True)
+# print(integer_list)
+
+list_nested1=[
+    ['test1', ['test2', 'test3',['test4']],'test5', ['test6','test7'],'test8',['test9',['test10']]]
+]
+print(list_nested1[0][1][2][0])
+print(list_nested1[0][5][1][0])
+
+
+Assignment
